@@ -72,6 +72,7 @@ body {
 .jumbotron h1 {
   margin: 50px;
   margin-top: 15vh;
+  margin-bottom: 10px;
   font-size: 38px;
   font-weight: bolder;
   margin-left: auto;
