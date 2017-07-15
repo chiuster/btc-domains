@@ -1,0 +1,337 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #FFF:
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(0,0,0,0);
+  border: 0;
+  margin: 0;
+  height: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  font-size: 18px;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 40px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #F3F3F3;
+}
+
+.navbar-header {
+  margin: 0;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+/* Navbar toggle button that shows up on mobile devices */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  background-color: transparent;
+  height: 60px;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar:hover {
+  background-color: #FFF;
+}
+
+/* Jumbotron/big header */
+.jumbotron {
+  /*background-color: #feb645;*/
+  background-color: #65c470;
+
+  color: #FFF;
+  padding-top: 0;
+  text-align: center;
+
+  min-height: 80vh;
+  padding-bottom: 150px; /* To give some space on mobile */
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  margin: 50px;
+  margin-top: 15vh;
+  font-size: 38px;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.jumbotron h2 {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-transform: uppercase;
+}
+
+.jumbotron p {
+  font-weight: lighter;
+  font-size: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* Jumbotron buttons */
+.jumbotron .btn-lg {
+  background: rgba(0,0,0,0);
+  border: 2px solid #FFF;
+  color: #FFF;
+  font-weight: 400;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.jumbotron .btn-lg:hover {
+  background: #FFF;
+  border: 2px solid #FFF;
+  color: #feb645;
+  transition: all 300ms ease-out;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+}
+
+.glyphicon {
+  margin-right: 5px;
+}
+
+/* In general, rows = sections; general layouts here;
+can be overriden in specific instances */
+.row {
+  width: 100%;
+  padding: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.row.info a {
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+  display: inline-block;
+}
+
+.row h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* Intro video space */
+.video {
+  background-image: url("video.png");
+  background-position: center;
+  background-size: cover;
+  padding-top: 25%;
+  margin-bottom: 30px;
+
+  border: 2px solid rgba(254, 182, 69, 0.5);
+
+  -webkit-box-shadow: 2px 2px 1px 2px rgba(247,247,247,1);
+  -moz-box-shadow: 2px 2px 1px 2px rgba(247,247,247,1);
+  box-shadow: 2px 2px 1px 2px rgba(247,247,247,1);
+}
+
+.video:hover {
+  background-image: url("video_hover.png");
+  /*border: 2px solid #feb645;*/
+
+  transition: all 300ms ease-out;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+}
+
+/* FOOTER */
+footer {
+  color: #000;
+  border-top: 5px solid #65c470;
+  padding-bottom: 50px;
+}
+
+footer .row {
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  text-align: left;
+  width: 95%;
+}
+
+footer .row h3 {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #65c470;
+  text-transform: uppercase;
+}
+
+footer .row div {
+  padding: 10px;
+}
+
+footer .row div p {
+  text-align: left !important;
+  font-size: 16px !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Collapse/FAQ panel */
+.panel-group {
+  margin: auto;
+  width: 80%;
+}
+
+.panel-group .panel {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.panel-group .panel h4 {
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+panel-group .panel h4 a {
+  width: 100%;
+  text-align: left;
+}
+
+.panel-group p {
+  color: #000 !important;
+  padding: 20px;
+  text-align: left;
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+
+/* Timeline row */
+.timeline-row {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.timeline-row .date {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.timeline-row h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.timeline-row p {
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.timeline-box {
+  border: 2px solid #979797;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.timeline-box.future {
+  opacity: 1.0;
+}
+
+.timeline-box p {
+  text-align: justify;
+}
+
+.timeline-back {
+  background-image: url("line.png");
+  background-position: center;
+}
+
+.timeline-badge {
+  background-color: #feb645;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  text-align: center;
+  margin: auto;
+
+  /*-webkit-box-shadow: 1px 1px 1px 2px rgba(230,230,230,1);
+  -moz-box-shadow: 1px 1px 1px 2px rgba(230,230,230,1);
+  box-shadow: 1px 1px 1px 2px rgba(230,230,230,1);*/
+}
+
+.timeline-badge .glyphicon {
+  font-size: 20px;
+  margin-left: 5px;
+  color: #FFF;
+}
+
+/* Dim future timeline information */
+.future {
+  opacity: 0.5;
+}
+
+/* Row background color schemes */
+.orange {
+  background-color: #feb645;
+  color: #FFF:
+}
+
+.orange p, .orange h1, .orange h2 {
+  color: #FFF;
+}
+
+.grey {
+  background-color: #EEE;
+}
+
+.dark {
+  background-color: #222;
+}
+
+.dark p, .dark h1, .dark h2 {
+  color: #FFF;
+}
