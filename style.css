@@ -64,7 +64,7 @@ body {
   padding-top: 0;
   text-align: center;
 
-  min-height: 75vh;
+  min-height: 100vh;
   padding-bottom: 150px; /* To give some space on mobile */
   margin-bottom: 0;
 }
@@ -106,14 +106,14 @@ body {
   font-weight: 400;
   margin: 5px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   padding: 20px;
 }
 
 .jumbotron .btn-lg:hover {
   background: #FFF;
   border: 2px solid #FFF;
-  color: #feb645;
+  color: #65c470;
   transition: all 300ms ease-out;
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
@@ -177,7 +177,8 @@ can be overriden in specific instances */
 footer {
   color: #000;
   border-top: 5px solid #65c470;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
+  margin-bottom: 0;
 }
 
 footer .row {
