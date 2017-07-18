@@ -59,7 +59,7 @@
         Pay with Altcoins
       </a>
       <p style="font-size: 20px;">
-        Following your purchase, please send an email to <a href="josh@navier.io">josh@navier.io</a> with your contact
+        Following your purchase, please send an email to <a href="chris@strategydomains.com">chris@strategydomains.com</a> with your contact
         information, as well as the Bitcoin address you used to render the transaction. Include the domain name in <thead>
         subject line. If you used ShapeShift or other cryptocurrency converter, send a link to a payment receipt.
       </p>
