@@ -92,10 +92,15 @@ body {
 
 .jumbotron p {
   font-weight: lighter;
-  font-size: 32px;
+  font-size: 22px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+.jumbotron p a {
+  color: #FFF;
+  font-weight: bold;
 }
 
 /* Jumbotron buttons */
