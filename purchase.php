@@ -49,15 +49,15 @@
 
       <!-- BEGIN header information -->
       <h1>Purchase <?php echo $_GET['domain']; ?></h1>
-      <a href="#" class="btn btn-lg">
+      <a href="https://auctions.godaddy.com/trpItemListing.aspx?&domain=<?php echo $_GET['domain']; ?>" class="btn btn-lg">
         Buy/Bid on GoDaddy
       </a>
-      <a href="#" class="btn btn-lg">
+      <a href="https://www.afternic.com/domain/<?php echo $_GET['domain']; ?>" class="btn btn-lg">
         Buy/Bid on Afternic
       </a>
       <p style="font-size: 20px;">
         Bitcoin and altcoins are also accepted. If you would like to pay with these, please send an email to <a href="chris@strategydomains.com">chris@strategydomains.com</a> with your contact
-        information. Include the domain name in the subject line.
+        information and include the domain name in the subject line.
       </p>
     </div>
     <!-- END jumbotron -->
