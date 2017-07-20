@@ -49,19 +49,15 @@
 
       <!-- BEGIN header information -->
       <h1>Purchase <?php echo $_GET['domain']; ?></h1>
-      <p>
-        $999.00 (0.487 BTC)
-      </p>
       <a href="#" class="btn btn-lg">
-        <span class="glyphicon glyphicon-bitcoin" aria-hidden="true"></span> Pay with Bitcoin
+        Buy/Bid on GoDaddy
       </a>
       <a href="#" class="btn btn-lg">
-        Pay with Altcoins
+        Buy/Bid on Afternic
       </a>
       <p style="font-size: 20px;">
-        Following your purchase, please send an email to <a href="chris@strategydomains.com">chris@strategydomains.com</a> with your contact
-        information, as well as the Bitcoin address you used to render the transaction. Include the domain name in <thead>
-        subject line. If you used ShapeShift or other cryptocurrency converter, send a link to a payment receipt.
+        Bitcoin and altcoins are also accepted. If you would like to pay with these, please send an email to <a href="chris@strategydomains.com">chris@strategydomains.com</a> with your contact
+        information. Include the domain name in the subject line.
       </p>
     </div>
     <!-- END jumbotron -->
