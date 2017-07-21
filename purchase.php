@@ -1,3 +1,7 @@
+<?php
+  $godaddy = "https://auctions.godaddy.com/trpItemListing.aspx?&domain=".$_GET['domain'];
+  $afternic = "https://www.afternic.com/domain/".$_GET['domain'];
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -48,11 +52,11 @@
       <!-- END nav bar -->
 
       <!-- BEGIN header information -->
-      <h1>Purchase <?php echo $_GET['domain']; ?></h1>
-      <a href="https://auctions.godaddy.com/trpItemListing.aspx?&domain=<?php echo $_GET['domain']; ?>" class="btn btn-lg">
+      <h1>Purchase <?php echo $_GET["domain"]; ?></h1>
+      <a href=<?php echo $godaddy; ?> class="btn btn-lg">
         Buy/Bid on GoDaddy
       </a>
-      <a href="https://www.afternic.com/domain/<?php echo $_GET['domain']; ?>" class="btn btn-lg">
+      <a href=<?php echo $afternic; ?> class="btn btn-lg">
         Buy/Bid on Afternic
       </a>
       <p style="font-size: 20px;">
