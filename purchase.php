@@ -1,6 +1,6 @@
 <?php
-  $godaddy = "https://auctions.godaddy.com/trpItemListing.aspx?&domain=\($_GET['domain'])";
-  $afternic = "https://www.afternic.com/domain/\($_GET['domain'])";
+  $godaddy = "https://auctions.godaddy.com/trpItemListing.aspx?&domain=".$_GET['domain'];
+  $afternic = "https://www.afternic.com/domain/".$_GET['domain'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
