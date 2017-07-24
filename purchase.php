@@ -53,10 +53,10 @@
 
       <!-- BEGIN header information -->
       <h1>Purchase <?php echo $_GET["domain"]; ?></h1>
-      <a href=<?php echo $godaddy; ?> class="btn btn-lg">
+      <a href=<?php echo $godaddy; ?> class="btn btn-lg" target="_blank">
         Buy/Bid on GoDaddy
       </a>
-      <a href=<?php echo $afternic; ?> class="btn btn-lg">
+      <a href=<?php echo $afternic; ?> class="btn btn-lg" target="_blank">
         Buy/Bid on Afternic
       </a>
       <p style="font-size: 20px;">
