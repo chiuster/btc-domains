@@ -60,7 +60,7 @@
         Buy/Bid on Afternic
       </a>
       <p style="font-size: 20px;">
-        Bitcoin and altcoins are also accepted. If you would like to pay with these, please send an email to <a href="chris@strategydomains.com">chris@strategydomains.com</a> with your contact
+        Bitcoin and altcoins are also accepted. If you would like to pay with these, please send an email to <a href="mailto:chris@strategydomains.com">chris@strategydomains.com</a> with your contact
         information and include the domain name in the subject line.
       </p>
     </div>
