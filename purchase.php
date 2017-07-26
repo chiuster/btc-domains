@@ -73,7 +73,7 @@
       <a href=<?php echo $godaddy; ?> class="btn btn-lg" target="_blank">
         Buy/Bid on GoDaddy
       </a>
-      <?php if ($nogodaddy) { echo "<!--"; } ?>
+      <?php if ($nogodaddy) { echo "-->"; } ?>
       <a href=<?php echo $afternic; ?> class="btn btn-lg" target="_blank">
         Buy/Bid on Afternic
       </a>
