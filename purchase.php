@@ -1,4 +1,20 @@
 <?php
+  $godaddy_banned_list = ["blackjack.how", "pkr.chat", "coin.exchange", "coins.exchange", "tlv.chat", "coin.industries", "coin.mn", "qtum.venture", "pkr.ai", "pkr.gd", "neo.poker", "moj.ee", "iota.us.com", "eos.pojer", "eos.build", "burst.money", "burst.observer", "gnosispm.poker", "gnosispm.pro", "gnosispm.football", "gnosis.football", "gno.poker", "gno.ooo",
+  "gno.network", "gno.football", "gno.chat", "gno.build", "bancor.ae", "bancor.cm", "bancor.com.sg", "bancor.ee", "bancor.id", "bancor.is", "bancor.li", "bancor.lt", "bancor.lu", "bancor.pm", "bancor.sc", "bancor.sg", "bancor.st", "bancor.tel", "bnt.ai", "bnt.co.ee", "bnt.com.ee", "bnt.com.hk", "bnt.com.sg", "bnt.do", "bnt.ec",
+  "bnt.lc", "bnt.nz", "bnt.pm", "bnt.re", "bnt.sg", "bnt.st", "bnt.sx", "bnt.tn", "bnt.wf", "bnt.yt", "asch.sh", "asch.city", "asch.ac", "antshares.system", "ans.loan", "ans.poker", "ans.chat", "ans.city", "ans.cash", "token.al", "token.cd", "token.cm", "token.cx", "token.ec", "token.ee",
+  "token.lc", "token.li", "token.lv", "token.net.ec", "token.net.ru", "token.org.sl", "token.pm", "token.ps", "token.qa", "token.re", "token.sc", "token.sl", "token.sx", "token.tel", "token.tj", "token.tn", "token.wf", "ans.co.com", "ans.army", "tge.pm", "tge.sg", "tge.vc", "tge.nz", "ico.wf", "tge.ae",
+  "tge.ai", "tge.cm", "tge.co.il", "tge.do", "tge.ee", "tge.hk", "tge.im", "tge.is", "tge.jp", "ico.tf", "ico.tj", "ico.ug", "ico.do", "ico.qa", "ico.sb", "ico.ae", "ico.africa.com", "rarepepe.in", "golem.cam", "xmr.poker", "xmrindia.in", "moneroindia.in", "monero.im", "monero.tel", "erc20.in",
+  "ethslots.chat", "eth.software", "eth.land", "eth.chat", "eth.builders", "eth.army", "xbu.cash", "btu.im", "btc.uy", "btc.vlaanderen", "btc.vu", "btc.webcam", "btc.wf", "btcc.cm", "btc.saarland", "btc.sc", "btc.ruhr", "btc.media", "btc.co.ee", "btc.cologne", "btc.consulting", "btc.brussels", "blkch.in", "blckcha.in", "blckch.in",
+  "bits.co.com", "bitmessages.im", "bitmessages.in", "btc.army", "civic.chat", "lisk.click", "lisk.link"];
+
+  $nogodaddy = true;
+
+  if (in_array($_GET['domain'], $godaddy_banned_list)) {
+    $nogodaddy = true;
+  } else {
+    $nogodaddy = false;
+  }
+
   $godaddy = "https://auctions.godaddy.com/trpItemListing.aspx?&domain=".$_GET['domain'];
   $afternic = "https://www.afternic.com/domain/".$_GET['domain'];
 ?>
@@ -53,9 +69,11 @@
 
       <!-- BEGIN header information -->
       <h1>Purchase <?php echo $_GET["domain"]; ?></h1>
+      <?php if ($nogodaddy) { echo "<!--"; } ?>
       <a href=<?php echo $godaddy; ?> class="btn btn-lg" target="_blank">
         Buy/Bid on GoDaddy
       </a>
+      <?php if ($nogodaddy) { echo "<!--"; } ?>
       <a href=<?php echo $afternic; ?> class="btn btn-lg" target="_blank">
         Buy/Bid on Afternic
       </a>
