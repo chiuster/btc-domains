@@ -5,7 +5,7 @@
   "token.lc", "token.li", "token.lv", "token.net.ec", "token.net.ru", "token.org.sl", "token.pm", "token.ps", "token.qa", "token.re", "token.sc", "token.sl", "token.sx", "token.tel", "token.tj", "token.tn", "token.wf", "ans.co.com", "ans.army", "tge.pm", "tge.sg", "tge.vc", "tge.nz", "ico.wf", "tge.ae",
   "tge.ai", "tge.cm", "tge.co.il", "tge.do", "tge.ee", "tge.hk", "tge.im", "tge.is", "tge.jp", "ico.tf", "ico.tj", "ico.ug", "ico.do", "ico.qa", "ico.sb", "ico.ae", "ico.africa.com", "rarepepe.in", "golem.cam", "xmr.poker", "xmrindia.in", "moneroindia.in", "monero.im", "monero.tel", "erc20.in",
   "ethslots.chat", "eth.software", "eth.land", "eth.chat", "eth.builders", "eth.army", "xbu.cash", "btu.im", "btc.uy", "btc.vlaanderen", "btc.vu", "btc.webcam", "btc.wf", "btcc.cm", "btc.saarland", "btc.sc", "btc.ruhr", "btc.media", "btc.co.ee", "btc.cologne", "btc.consulting", "btc.brussels", "blkch.in", "blckcha.in", "blckch.in",
-  "bits.co.com", "bitmessages.im", "bitmessages.in", "btc.army", "civic.chat", "lisk.click", "lisk.link"];
+  "bits.co.com", "bitmessages.im", "bitmessages.in", "btc.army", "civic.chat", "lisk.click", "lisk.link", "bch.chat", "bitcoincash.sh", "bitcoincash.ac", "bitcoincash.observer"];
 
   $nogodaddy = true;
 
