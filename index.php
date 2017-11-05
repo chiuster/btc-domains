@@ -5,7 +5,13 @@
   </head>
   <body>
     <h1>Cryptocurrency Domains for Sale</h1>
-    Any inquiries can be addressed to Chris via email to <a href="mailto:chris@strategydomains.com">chris@strategydomains.com</a> or over the phone at (650)-690-2583 during business hours (Mon-Fri 8AM-5PM PDT).
+
+    <i>
+      Any inquiries can be addressed to Chris Grenfell via email to <a href="mailto:chris@strategydomains.com">chris@strategydomains.com</a> or over the phone at (650)-690-2583 during business hours (Mon-Fri 8AM-5PM PDT).
+    </i>
+    
+    <br /><br />
+
 <?php
   // header("Location: index.html");
 
