@@ -6,7 +6,7 @@
   sort($domain_array);
 
   foreach ($domain_array as &$domain) {
-    print("<a href='http://www.afternic.com/domain/'".$domain.">".$domain."</a><br />");
+    print("<a href='http://www.afternic.com/domain/$domain>$domain</a><br />");
   }
 
 ?>
