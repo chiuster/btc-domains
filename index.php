@@ -124,7 +124,7 @@
     $domains = array();
     for ($i=1; $i<count($category_name); $i++) {
       foreach (array_filter($domain_array) as &$domain) {
-        if (strpos($domain, $category_name[$i]) !== false) {
+        if (strpos($domain, $category[$i]) !== false) {
           array_push($domains, $domain);
         }
       }
