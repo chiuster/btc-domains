@@ -122,7 +122,7 @@
 
     // Find domains that pertain to the category
     $domains = array();
-    for ($i=1; $i<count($category_name); $i++) {
+    for ($i=1; $i<count($category); $i++) {
       foreach (array_filter($domain_array) as &$domain) {
         if (strpos($domain, $category[$i]) !== false) {
           array_push($domains, $domain);
