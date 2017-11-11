@@ -67,8 +67,7 @@
       <a href="#golem" style="color:#FFF;">Golem</a><br />
       <a href="#lisk" style="color:#FFF;">Lisk</a><br />
       <a href="#lykke" style="color:#FFF;">Lykke</a><br />
-      <a href="#stratis" style="color:#FFF;">Stratis</a><br />
-      <a href="#pivxpepe" style="color:#FFF;">PIVX/PEPE</a>
+      <a href="#stratis" style="color:#FFF;">Stratis</a>
     </p>
   </div>
   <div class="col-sm-4 col-md-4">
@@ -83,8 +82,7 @@
       <a href="#bancor" style="color:#FFF;">Bancor</a><br />
       <a href="#civic" style="color:#FFF;">Civic</a><br />
       <a href="#gnosis" style="color:#FFF;">Gnosis</a><br />
-      <a href="#coinname" style="color:#FFF;">[Coin Name].com</a><br />
-      <a href="#other" style="color:#FFF;">Other Coins</a>
+      <a href="#coinname" style="color:#FFF;">[Coin Name].com</a>
     </p>
   </div>
   <div class="col-sm-4 col-md-4">
@@ -110,6 +108,27 @@
   $categories = array(
     array("Bitcoin", "btc", "bitcoin"),
     array("Ethereum", "eth", "ethereum"),
+    array("Litecoin", "ltc"),
+    array("Monero", "xmr", "monero"),
+    array("Decred", "decred"),
+    array("Golem", "golem"),
+    array("Lisk", "lsk", "lisk"),
+    array("Lykke", "lykke"),
+    array("Stratis", "stratis"),
+    array("0x", "0x"),
+    array("JCoin", "jcoin"),
+    array("ICO/TGE", "ico", "tge"),
+    array("Token", "token"),
+    array("Pillar", "pillar"),
+    array("Asch", "asch"),
+    array("Bancor", "bnt", "bancor"),
+    array("Civic", "civic"),
+    array("Gnosis", "gno"),
+    array("Coin Names", "coin"),
+    array("Civic", "civic"),
+    array("Exchanges", "exchange"),
+    array("Gambling", "casino"),
+    array("Accelerators", "acceler")
   );
 
   //foreach (array_filter($domain_array) as &$domain) {
