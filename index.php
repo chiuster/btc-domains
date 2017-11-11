@@ -137,7 +137,8 @@
 
   foreach (array_filter($categories) as &$category) {
     $category_name = $category[0];
-    print("<div class='row info' id='$category_name'><h1>$category_name</h1>");
+    $category_name_trimmed = str_replace("/", "", strtolower($category_name));
+    print("<div class='row info' id='$category_name_trimmed'><h1>$category_name</h1>");
 
     // Find domains that pertain to the category
     $domains = array();
