@@ -105,6 +105,8 @@
   $domain_array = explode("\n", $text);
   sort($domain_array);
 
+  $misc = $domain_array;
+
   $categories = array(
     array("Bitcoin", "btc", "bitcoin"),
     array("Ethereum", "eth", "ethereum"),
@@ -150,12 +152,20 @@
       }
     }
 
+    $misc = array_diff($misc, $domains);
+
     foreach (array_filter($domains) as &$domain) {
       print("<div class='col-sm-6 col-md-3'><a href='http://www.afternic.com/domain/$domain'>$domain</a></div>");
     }
 
     print("</div>");
   }
+
+  print("<div class='row info' id='miscellaneous'><h1>Miscellaneous</h1>");
+  foreach (array_filter($misc) as &$domain) {
+    print("<div class='col-sm-6 col-md-3'><a href='http://www.afternic.com/domain/$domain'>$domain</a></div>");
+  }
+  print("</div>");
 
 ?>
 
