@@ -108,9 +108,9 @@
   $misc = $domain_array;
 
   $categories = array(
-    array("Bitcoin", "btc", "bitcoin"),
+    array("Bitcoin", "btc", "bitcoin", "bit"),
     array("Ethereum", "eth", "ethereum"),
-    array("Litecoin", "ltc"),
+    array("Litecoin", "ltc", "litecoin"),
     array("Monero", "xmr", "monero"),
     array("Decred", "decred"),
     array("Golem", "golem"),
@@ -120,7 +120,7 @@
     array("0x", "0x"),
     array("JCoin", "jcoin"),
     array("ICO/TGE", "ico", "tge"),
-    array("Token", "token"),
+    array("Token", "token", "tkn"),
     array("Pillar", "pillar"),
     array("Asch", "asch"),
     array("Bancor", "bnt", "bancor"),
