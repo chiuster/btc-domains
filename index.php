@@ -82,6 +82,8 @@
       <a href="#bancor" style="color:#FFF;">Bancor</a><br />
       <a href="#civic" style="color:#FFF;">Civic</a><br />
       <a href="#gnosis" style="color:#FFF;">Gnosis</a><br />
+      <a href="#spank" style="color:#FFF;">Spank</a><br />
+      <a href="#rchain" style="color:#FFF;">RChain</a><br />
       <a href="#coinname" style="color:#FFF;">[Coin Name].com</a>
     </p>
   </div>
@@ -126,6 +128,8 @@
     array("Bancor", "bnt", "bancor"),
     array("Civic", "civic"),
     array("Gnosis", "gno"),
+    array("Spank", "spank"),
+    array("RChain", "rchain"),
     array("Coin Names", "coin"),
     array("Civic", "civic"),
     array("Exchanges", "exchange"),
